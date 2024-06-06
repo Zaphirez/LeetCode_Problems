@@ -1,7 +1,3 @@
-const test1 = [-2,1,-3,4,-1,2,1,-5,4];
-const test2 = [1]
-const test3 = [5,4,-1,7,8]
-
 const maxSubArray = nums => {
     let ans = nums[0];
     let sum = 0;
@@ -15,6 +11,3 @@ const maxSubArray = nums => {
     }
     return ans;
 }
-
-
-console.log(maxSubArray(test3))
