@@ -4,7 +4,6 @@ const containsDuplicate = nums =>{
     for (e of nums) {
         if (e != last){
             last = e;
-            continue;
         } else {
             return true;
         }
